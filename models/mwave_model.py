@@ -1,6 +1,6 @@
 from pydantic import BaseModel
 
-class Todo(BaseModel):
+class Mwave(BaseModel):
     name: str
     description: str
     completed: bool
