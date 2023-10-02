@@ -1,6 +1,6 @@
 from fastapi import APIRouter
 
-from models.todos_model import Todo
+from models.mwave_model import Mwave
 from config.database import collection_name
 
 from schemas.todos_schema import todos_serializer, todo_serializer
